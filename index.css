@@ -281,12 +281,21 @@ column-fill: balance;
 #contact form {
     width:100%;
 }
+
+#contact #name {
+    border-bottom:3px solid rgba(4, 220, 100,0.5);
+}
+
+#contact #email {
+    border-bottom:3px solid rgba(4, 220, 100,0.5);
+
+}
 #contact form input {
     width:96%;
     margin:20px 1%;
     background:transparent;
     border:0px;
-/*     border-bottom:3px solid rgba(4, 220, 100,0.5); */
+    /* border-bottom:3px solid rgba(4, 220, 100,0.5); */
     padding:8px 10px;
     font-family: 'Poppins', sans-serif;
     font-size:18px;
