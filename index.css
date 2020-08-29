@@ -118,24 +118,18 @@ header table {
   height: 55vh !important;
 }
 
-#info {
-    width:100%;
-    border:2vh solid #fff;
-}
 #info tr td{
     width:50%;
 }
 #info h2 {
-    padding:5px 0px;
+    margin-left: 10%;
     border-bottom:4px solid rgb(4, 220, 100);
     width:8%;
 }
-#info img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80vh !important;
-  height: 55vh !important;
+#info p{
+    font-size: 1.25vw;
+    width: 70%;
+    margin-left:10%;
 }
 
 #about {
@@ -146,10 +140,10 @@ header table {
     justify-content:center;
     text-align:left;
     padding:0px 8%;
-
 }
 #about p{
-font-size:20px;
+font-size:25%;
+padding-right: 10%;
 }
 #about h1 {
     font-size:45px;
@@ -177,7 +171,7 @@ font-size:20px;
 .raised{
     color:rgb(0, 0, 0);
     text-align:center;
-    font-size:90px;
+    font-size:4vw;
     border-bottom:4px solid rgb(4, 220, 100);
     width: 35%;
     margin: auto;
@@ -186,38 +180,10 @@ font-size:20px;
 .amt{
    color:rgb(0, 0, 0);
    text-align:center;
-   font-size:70px;
+   font-size:5.5vw;
    width: 50%;
    margin: auto;
 }
-
-.progress-bar {
-	position: relative;
-	width: 750px;
-	height: 7em;
-	background-color: #111;
-	border-radius: 1.5em;
-	color: black;
-        margin:auto
-}
-
-.progress-bar::before {
-   font-size:30px;
-	content: attr(data-label);
-	display: flex;
-	align-items: center;
-	position: absolute;
-	left: .5em;
-	top: .5em;
-	bottom: .5em;
-	width: calc(var(--width, 0) * 1%);
-	min-width: 2rem;
-	max-width: calc(100% - 1em);
-	background-color: rgba(4, 220, 100);
-	border-radius: 1.5em;
-	padding: 1em;
-}
-
 
 .social:hover { 
     cursor: pointer;
@@ -250,6 +216,13 @@ font-size:20px;
     background:linear-gradient(0deg,rgba(22, 224, 112, 0.55),rgba(12, 196, 94, 0.55)),url("Images/York Region Kiva.png") center center;
     background-size:cover;	
     background-repeat:no-repeat;
+}
+#leftImage{
+    height:75vh;
+    background:linear-gradient(0deg,rgba(22, 224, 112, 0),rgba(12, 196, 94, 0)),url("Images/img.jpg") center center;
+    background-size:80% 60%;	
+    background-repeat:no-repeat;
+    margin-left:20%;
 }
 #photos {
     width:100%;
@@ -408,6 +381,7 @@ button:focus {
 }
 
 @media (max-width: 1000px){
+    #leftImage{display:none;}
     #photos {
     columns:3;
     column-gap:4%;
@@ -429,9 +403,18 @@ button:focus {
         width:100%;
         text-align:center;
     }
-
-    #info {
+    #info h2{
+    padding:5px 0px;
+    border-bottom:4px solid rgb(4, 220, 100);
+    width:15%;
+    margin:auto
+    }
+    #info p{
+        margin:auto;
+        margin-top:5px;
         border:0px;
+        test-align:center;
+        font-size:2.5vw;
     }
     #info tr td{
         width:100%;
@@ -458,6 +441,7 @@ button:focus {
     box-shadow:0px 10px 20px rgba(4, 220, 100, 0.8);
     background:rgb(4, 220, 100);
     color:#fff;
+    margin-left: 20% !important;
     }
     .btn_one:hover {
         box-shadow:0px 10px 40px rgba(4, 220, 100, 0.8);
