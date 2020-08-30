@@ -219,8 +219,8 @@ padding-right: 10%;
 }
 #leftImage{
     height:75vh;
-    background:linear-gradient(0deg,rgba(22, 224, 112, 0),rgba(12, 196, 94, 0)),url("Images/img.jpg") center center;
-    background-size:80% 60%;	
+    background:linear-gradient(0deg,rgba(22, 224, 112, 0),rgba(12, 196, 94, 0)),url("Images/Outside.png") center center;
+    background-size:80% 73%;	
     background-repeat:no-repeat;
     margin-left:20%;
 }
