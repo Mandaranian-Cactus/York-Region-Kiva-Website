@@ -53,6 +53,11 @@ h3 {
 
 }
 
+@media (max-width: 1000px){
+    #teamImg{display:none}
+}
+
+
 /* .team {
     margin: 75px 0;
 }
