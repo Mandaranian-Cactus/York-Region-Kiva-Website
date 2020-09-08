@@ -142,11 +142,11 @@ header table {
     padding:0px 8%;
 }
 #about p{
-font-size:25%;
+font-size:calc(12px + 50%);
 padding-right: 10%;
 }
 #about h1 {
-    font-size:45px;
+    font-size:40px;
     word-wrap:break-word;
 }
 #about table {
@@ -205,6 +205,28 @@ padding-right: 10%;
     transition:0.4s ease-in-out;
 }
 .btn_one:hover {
+    box-shadow:0px 10px 30px rgba(4, 220, 100, 0.8);
+    cursor:pointer;
+    color:#fff;
+    background:rgb(4, 220, 100);
+}
+
+.btwo {
+    font-size:18px;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(4, 220, 100);
+    background:#fff;
+    border:3px solid rgb(4, 220, 100);
+    padding:8px 40px;
+    width:35%;
+    border-radius:80px;
+    font-weight:bold;
+    transition:0.4s ease-in-out;
+ margin-top:6%;	
+  margin-left: 25%;
+  width: 50%;
+}
+.btwo:hover {
     box-shadow:0px 10px 30px rgba(4, 220, 100, 0.8);
     cursor:pointer;
     color:#fff;
@@ -448,7 +470,6 @@ button:focus {
     box-shadow:0px 10px 20px rgba(4, 220, 100, 0.8);
     background:rgb(4, 220, 100);
     color:#fff;
-    margin-left: 20% !important;
     }
     .btn_one:hover {
         box-shadow:0px 10px 40px rgba(4, 220, 100, 0.8);
