@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
+progress{
+    -webkit-appearenace:none;
+    width:50%;
+    height:15px;
+   margin-left:25%;
+    border:2px solid #ccc;
+border-radius:15px;
+background:red;
+    
+&::-webkit-progress-bar{
+background:red;
+    }
+    &::-webkit-progress-value{
+background:blue;    
+}
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     padding:0px;
@@ -222,6 +239,7 @@ padding-right: 10%;
     font-weight:bold;
     transition:0.4s ease-in-out;	
     text-align: center;
+    margin-top:35px;	
 }
 
 .center{
@@ -522,4 +540,33 @@ button:focus {
     font-size:25px;
     word-wrap:break-word;
 }
+}
+
+
+
+
+
+#test{
+  height:50px;
+  width:50%;	
+  margin:auto;
+  border: 3px solid rgb(4, 220, 100);
+  border-radius: 30px;
+  background:#fff;
+}
+
+#test h1{
+  border: 3px solid rgb(4, 220, 100);
+  background:rgb(4, 220, 100);
+  margin-top:-59px;
+  margin-left:-3px;
+  border-radius: 30px;
+  text-align: center;
+  height:50px;
+  width:80%;
+}
+#test p{
+  padding-left:20px;
+  font-weight: 900;
+  color:white;
 }
