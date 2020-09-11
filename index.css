@@ -494,7 +494,7 @@ margin-left:15% !important;
     width: 58% !important;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 700px) {
     .amt{
         font-size:25px !important;
     }
@@ -502,8 +502,9 @@ margin-left:15% !important;
         font-size:15px !important;
     }
     .pushRight{
-        margin-left:10% !important;
-    }
+        margin-left:0% !important;
+	margin-top:5%;    
+}
     #leftImage {
         display: none;
     }
@@ -557,7 +558,7 @@ margin-left:15% !important;
     }
     #about {
         width: 92% !important;
-        height: 75vh;
+        height: 72vh;
         padding-top: 20vh !important;
         text-align: center;
         padding: 0px 4%;
