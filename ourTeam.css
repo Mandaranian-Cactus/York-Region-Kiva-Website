@@ -33,7 +33,7 @@ h3 {
 
 #team .card {
     border-radius: 0;
-    box-shadow: 5px 5px 15px  rgb(4, 220, 100);
+    box-shadow: 5px 5px 15px rgb(4, 220, 100);
     transition: all 0.3s ease-in;
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
@@ -41,119 +41,20 @@ h3 {
 }
 
 #team .card:hover {
-    background:  rgb(4, 220, 100);
+    background: rgb(4, 220, 100);
     color: #fff;
     border-radius: 5px;
     border: none;
     box-shadow: 5px 5px 10px #9E9E9E;
 }
 
-#team .card:hover h3, #team .card:hover i {
-    color: #fff;
-
-}
-
-@media (max-width: 900px){
-    #teamImg{display:none}
-}
-
-
-/* .team {
-    margin: 75px 0;
-}
-
-#team-header {
-    text-align: center;
-    font-weight: bold;
-    letter-spacing: 2px;
-    color:rgb(4, 220, 100);
-    padding-bottom: 10px;
-}
-
-#team-header:after {
-    content: "";
-    background:rgb(4, 220, 100);
-    display: block;
-    height: 3px;
-    width: 150px;
-    margin: 10px auto;
-}
-
-.profile {
-    margin-top: 25px;
-
-}
-
-.profile .img-box {
-    opacity: 1;
-    display: block;
-    position: relative;
-
-}
-
-.profile h2 {
-    font-size: 22px;
-    font-weight: bold;
-    margin-top: 15px;
-}
-
-.profile h3 {
-    font-size: 15px;
-    font-weight: bold;
-    margin-top: 15px;
-}
-
-/* .img-box:after {
-    content: "";
-    opacity: 0;
-    background-color: rgba(0, 0, 0, 0.6);
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: 0;
-    bottom: 0;
-}
-
-.img-box ul {
-    margin: 0;
-    padding: 20px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 0;
-    display: block;
-    left: 50%;
-    transform: translateX(-50%);
-    opacity: 0;
-}
-
-.img-box ul li {
-    width: 30px;
-    height: 30px;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    margin: 3px;
-    padding: 7px;
-    display: inline-block;
-
-}
-
-.img-box a {
+#team .card:hover h3,
+#team .card:hover i {
     color: #fff;
 }
 
-.img-box:hover:after {
-    opacity: 1;
+@media (max-width: 900px) {
+    #teamImg {
+        display: none
+    }
 }
-
-.img-box:hover ul {
-    opacity: 1;
-}
-
-.img-box a:hover li {
-    color: #007bff;
-    border: 1px solid #007bff;
-}
-
-.img-box:after, .img-box ul, .img-box ul li {
-    transition: all 0.5s ease-in-ouit 0s;
-} */ */
