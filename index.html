@@ -1,88 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>York Region Kiva</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
-    <div id="loading">
-        <div id="spinner"></div>
-    </div>
-    <div id="magnify">
-        <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
-        <div id="img_here"></div>
-    </div>
-    <header id="header" class="animated slideInDown" style="animation-delay:0.2s;">
-        <table>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>York Region Kiva</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="loading">
+            <div id="spinner"></div>
+        </div>
+        <div id="magnify">
+            <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
+            <div id="img_here"></div>
+        </div>
+        <header id="header" class="animated slideInDown" style="animation-delay:0.2s;">
+            <table>
+                <tr>
+                    <td id="logo">York Region Kiva</td>
+                    <td id="navigation">
+                        <a href="#top_part">Home</a>
+                        <a href="#info"> About</a>
+                        <a href="#contact">Contact</a>
+                        <a href="ourTeam.html">Our Team</a>
+                    </td>
+                </tr>
+            </table>
+        </header>
+        <table id="top_part">
             <tr>
-                <td id="logo">York Region Kiva</td>
-                <td id="navigation">
-                    <a href="#top_part">Home</a>
-	            <a href="#info"> About</a>
-                    <a href="#contact">Contact</a>
-		    <a href="ourTeam.html">Our Team</a>
+                <td id="about" class="animated slideInLeft" style="animation-delay:2s;">
+                    <h1>Aiding developing nations hit by the COVID-19 Pandemic</h1>
+                    <a href='#contact'><button class="btn_one">Contact</button></a><br>
+                    <table>
+                        <tr>
+                            <td class="animated zoomIn" style="animation-delay:2.4s;"><a href="https://www.instagram.com/yorkregionkiva/" target="_blank" class="social"><i class="fab fa-twitter"></i></a></td>
+                            <td class="animated zoomIn" style="animation-delay:2.6s;"><a href="https://twitter.com/YorkRegionKiva" target="_blank" class="social"><i class="fab fa-instagram"></i></a></td>
+                            <td class="animated zoomIn" style="animation-delay:2.6s;"><a href="https://www.facebook.com/YorkRegionKiva/" target="_blank" class="social"><i class="fab fa-facebook"></i></a></td>
+                        </tr>
+                    </table>
                 </td>
+                <td id="rightImage" class="animated jackInTheBox" style="animation-delay:2.2s;"></td>
             </tr>
         </table>
-    </header>
-    <table id="top_part">
-        <tr>
-            <td id="about" class="animated slideInLeft" style="animation-delay:2s;">
-                <h1>Aiding developing nations hit by the COVID-19 Pandemic</h1>
-                <a href='#contact'><button class="btn_one">Contact</button></a><br>
-                <table>
-                    <tr>
-                        <td class="animated zoomIn" style="animation-delay:2.4s;"><a href="https://www.instagram.com/yorkregionkiva/" target="_blank" class="social"><i class="fab fa-twitter"></i></a></td>
-                        <td class="animated zoomIn" style="animation-delay:2.6s;"><a href="https://twitter.com/YorkRegionKiva" target="_blank" class="social"><i class="fab fa-instagram"></i></a></td>
-			<td class="animated zoomIn" style="animation-delay:2.6s;"><a href="https://www.facebook.com/YorkRegionKiva/" target="_blank" class="social"><i class="fab fa-facebook"></i></a></td>
-                    </tr>
-                </table>
-            </td>
-            <td id="rightImage" class="animated jackInTheBox" style="animation-delay:2.2s;"></td>
-        </tr>
-    </table>
-
-   
-</br></br>
-   <div id="info">
-   <table id= "info">
-        <tr> 
-<td id="leftImage" class="animated jackInTheBox" style="animation-delay:2.2s;"></td>
-        <td>
-        <h2>About</h2>
-        <p>
-           The York Region Kiva is a community organization dedicated to raising money for entrepreneurs in developing nations affected by the COVID-19 pandemic. Through Kiva, an international micro-lending non-profit, we aim to raise $2020 by the end of 2020. Once we get back the money we lend, we aim to reloan our donations to further multiply our impacts.
-        </p>
-	</td>
-        </tr>
-
-
-    </table>
-    </div>
-   </br></br>
-    <h1 class="raised">Amount Raised</h1> </br>
-    <h1 class="amt">$1000/$2020 Goal</h1>
-<div id="test">
-<p>50%</p>
-<h1></h1>
-</div>
-
-<a href="https://www.kiva.org/team/york_region_kiva" target="_blank">
-<div class="center">
-<button class="btwo">Donate Now</button>
-</div>
-</a>
-
-    <div id="contact">
-        <h1 style="color: green">contact</h1>
+        </br></br>
+        <div id="info">
+            <table id= "info">
+                <tr>
+                    <td id="leftImage" class="animated jackInTheBox" style="animation-delay:2.2s;"></td>
+                    <td>
+                        <h2>About</h2>
+                        <p>
+                            The York Region Kiva is a community organization dedicated to raising money for entrepreneurs in developing nations affected by the COVID-19 pandemic. Through Kiva, an international micro-lending non-profit, we aim to raise $2020 by the end of 2020. Once we get back the money we lend, we aim to reloan our donations to further multiply our impacts.
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        </br></br>
+        <h1 class="raised">Amount Raised</h1>
+        </br>
+        <br>
+        <h4 class="amt">$1000/$2020 Goal</h4>
+        <h4 class="amt-text">50% of goal reached.</h4>
+        <br>
+        <div id="test">
+            <p>50%</p>
+            <h1></h1>
+        </div>
+        <a href="https://www.kiva.org/team/york_region_kiva" target="_blank">
+            <div class="center">
+                <button class="btwo">Donate Now</button>
+            </div>
+        </a>
+        <div id="contact">
+            <h1 style="color: green">contact</h1>
             <table>
                 <tr>
                     <td>
@@ -94,21 +90,22 @@
                                 <tr>
                                     <td><i class="fas fa-at"></i> &nbsp; Yorkregionkiva@gmail.com</td>
                                 </tr>
-                                 <tr>
+                                <tr>
                                     <td><i class="fas fa-fax"></i> &nbsp; Coming Soon</td>
                                 </tr>
                                 <tr>
-                                    <td><i class="fas fa-map-marker-alt"></i>
-                                    <div id="address">
-					Coming Soon
-                                    </div>
+                                    <td>
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <div id="address">
+                                            Coming Soon
+                                        </div>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                        <a href="https://www.instagram.com/yorkregionkiva/" target="_blank" class="social"><i class="fab fa-twitter"></i></a>
-                        <a href="https://twitter.com/YorkRegionKiva" target="_blank" class="social"><i class="fab fa-instagram"></i></a>
-			<a href="https://www.facebook.com/YorkRegionKiva/" target="_blank" class="social"><i class="fab fa-facebook"></i></a>
+                                        <a href="https://www.instagram.com/yorkregionkiva/" target="_blank" class="social"><i class="fab fa-twitter"></i></a>
+                                        <a href="https://twitter.com/YorkRegionKiva" target="_blank" class="social"><i class="fab fa-instagram"></i></a>
+                                        <a href="https://www.facebook.com/YorkRegionKiva/" target="_blank" class="social"><i class="fab fa-facebook"></i></a>
                                     </td>
                                 </tr>
                             </table>
@@ -119,14 +116,12 @@
                             <input id="name" type="text" placeholder="name" name="Name " required>
                             <input id="email" type="email" placeholder="email" name = "Email "required><br>
                             <textarea placeholder="your message" required rows="5" name="Message "></textarea><br>
-<button class="btn_one">Send</button><br>
-                        </form> 
+                            <button class="btn_one">Send</button><br>
+                        </form>
                     </td>
                 </tr>
             </table>
-    </div>
-
-
-    <script src="index.js" type="text/javascript"></script>
-</body>
+        </div>
+        <script src="index.js" type="text/javascript"></script>
+    </body>
 </html>
