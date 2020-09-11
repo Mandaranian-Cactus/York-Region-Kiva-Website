@@ -627,3 +627,9 @@ button:focus {
     width: 50%;
     margin: auto;
 }
+
+.progress .progress-bar {
+    width: 50%;
+    vertical-align: middle;
+    font-size: 30px;
+}
