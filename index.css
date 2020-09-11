@@ -15,6 +15,14 @@ progress {
     }
 }
 
+.small-text {
+    color: gray;
+    text-align: left;
+    font-style: italic;
+    font-size: 1.5vw;
+    width: 50%;
+    margin: auto;
+}
 body {
     font-family: 'Poppins', sans-serif;
     padding: 0px;
@@ -463,7 +471,29 @@ button:focus {
     background: rgba(0, 0, 0, 0.8);
 }
 
+.pushRight{
+margin-left:15% !important;
+}
+
+#test {
+    height: 50px;
+    width: 100%;
+    margin-left:-40% !important;
+    border: 3px solid rgb(4, 220, 100);
+    border-radius: 30px;
+    background: #fff;
+}
+
 @media (max-width: 1000px) {
+    .amt{
+        font-size:25px !important;
+    }
+    .small-text{
+        font-size:15px !important;
+    }
+    .pushRight{
+        margin-left:10% !important;
+    }
     #leftImage {
         display: none;
     }
@@ -582,6 +612,7 @@ button:focus {
 
     #test {
         width:80% !important;
+        margin-left:-30% !important;
     }
     #btwo{
         height:50px !important;
@@ -589,29 +620,32 @@ button:focus {
 }
 
 
-.small-text {
-    color: gray;
-    text-align: left;
-    font-style: italic;
-    font-size: 1.0vw;
-    width: 50%;
-    margin: auto;
-}
-
-.progress {
-    height: 50px;
-    width: 50%;
-    margin: auto;
+#test h1 {
     border: 3px solid rgb(4, 220, 100);
+    background: rgb(4, 220, 100);
+    margin-top: -59px;
+    margin-left: -3px;
     border-radius: 30px;
-    background: #fff;
+    height: 50px;
+    width: 53% !important;
 }
 
-.progress .progress-bar {
-    width: 50%
+#test p {
+    padding-left: 20px;
+    font-weight: 900;
+    color: white;
 }
 
-#raised {
+
+.amt-text {
+    color: rgb(0, 0, 0);
+    text-align: right;
+    font-size: 2.0vw;
+    width: 50%;
+    margin: auto;
+}
+
+.raised {
     color: rgb(0, 0, 0);
     text-align: center;
     font-size: 4vw;
@@ -623,13 +657,13 @@ button:focus {
 .amt {
     color: rgb(0, 0, 0);
     text-align: left;
-    font-size: 2.0vw;
+    font-size: 3.5vw;
     width: 50%;
     margin: auto;
 }
 
-.progress .progress-bar {
-    width: 50%;
-    vertical-align: middle;
-    font-size: 30px;
+.progressDonate{
+width:100%;
+table-layout:fixed;
 }
+
