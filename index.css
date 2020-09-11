@@ -588,7 +588,17 @@ button:focus {
     }
 }
 
-#test {
+
+.small-text {
+    color: gray;
+    text-align: left;
+    font-style: italic;
+    font-size: 1.0vw;
+    width: 50%;
+    margin: auto;
+}
+
+.progress {
     height: 50px;
     width: 50%;
     margin: auto;
@@ -597,33 +607,11 @@ button:focus {
     background: #fff;
 }
 
-#test h1 {
-    border: 3px solid rgb(4, 220, 100);
-    background: rgb(4, 220, 100);
-    margin-top: -59px;
-    margin-left: -3px;
-    border-radius: 30px;
-    text-align: center;
-    height: 50px;
-    width: 53% !important;
+.progress .progress-bar {
+    width: 50%
 }
 
-#test p {
-    padding-left: 20px;
-    font-weight: 900;
-    color: white;
-}
-
-
-.amt-text {
-    color: rgb(0, 0, 0);
-    text-align: right;
-    font-size: 2.0vw;
-    width: 50%;
-    margin: auto;
-}
-
-.raised {
+#raised {
     color: rgb(0, 0, 0);
     text-align: center;
     font-size: 4vw;
