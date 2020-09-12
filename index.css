@@ -191,12 +191,12 @@ header table {
 }
 
 #about p {
-    font-size: calc(12px + 50%);
+    font-size: calc(5px + 50%);
     padding-right: 10%;
 }
 
 #about h1 {
-    font-size: 40px;
+    font-size: 35px;
     word-wrap: break-word;
 }
 
@@ -550,7 +550,7 @@ margin-left:15% !important;
         margin-top: 7px;
         border: 0px;
         test-align: center;
-        font-size: 18px;
+        font-size: 13px !important;
     }
     #info tr td {
         width: 100%;
@@ -617,7 +617,7 @@ margin-left:15% !important;
         color: #000;
     }
     #about h1 {
-        font-size: 25px;
+        font-size: 17px;
         word-wrap: break-word;
     }
 
