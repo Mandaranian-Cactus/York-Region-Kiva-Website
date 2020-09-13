@@ -491,7 +491,13 @@ margin-left:15% !important;
     margin-left: -3px;
     border-radius: 40px;
     height: 80px;
-    width: 58% !important;
+    width: 83% !important;
+}
+
+.linkedIn{
+    background: linear-gradient(0deg, rgba(22, 224, 112, 0.55), rgba(12, 196, 94, 0.55)), url("Images/York Region Kiva.png") center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 @media (max-width: 700px) {
