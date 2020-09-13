@@ -1,5 +1,5 @@
 var width = $(window).width(); 
-window.onscroll = function(){
+
 if ((width >= 1000)){
     $("#header").css("background","#fff");
     $("#header").css("color","#000");
@@ -10,7 +10,6 @@ if ((width >= 1000)){
     },function(){
         $(this).css("border-bottom","2px solid transparent");
     });
-}
 }
 
 function magnify(imglink){
