@@ -1,6 +1,6 @@
 var width = $(window).width(); 
 
-if ((width >= 1000)){
+
     $("#header").css("background","#fff");
     $("#header").css("color","#000");
     $("#header").css("box-shadow","0px 0px 20px rgba(0,0,0,0.09)");
@@ -10,7 +10,7 @@ if ((width >= 1000)){
     },function(){
         $(this).css("border-bottom","2px solid transparent");
     });
-}
+
 
 function magnify(imglink){
     $("#img_here").css("background",`url('${imglink}') center center`);
